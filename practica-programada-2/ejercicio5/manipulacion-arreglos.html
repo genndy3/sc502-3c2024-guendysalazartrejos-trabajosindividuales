@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación de Arreglos</title>
+</head>
+<body>
+    <h1>Información de Estudiantes</h1>
+    <div id="result"></div>
+    <h3 id="promedio"></h3>
+    <script>
+        const estudiantes = [
+            { nombre: "Juan", apellido: "Pérez", nota: 85 },
+            { nombre: "María", apellido: "Gómez", nota: 90 },
+            { nombre: "Luis", apellido: "Martínez", nota: 78 },
+            { nombre: "Ana", apellido: "López", nota: 92 },
+            { nombre: "Pedro", apellido: "Sánchez", nota: 88 }
+        ];
+
+        let totalnotas = 0;
+        let promedionotas = 0;
+
+        estudiantes.forEach(estudiante => {
+            document.getElementById("result").innerHTML += (`${estudiante.nombre} ${estudiante.apellido}<br>`);
+            totalnotas += estudiante.nota;
+        });
+
+        promedionotas = totalnotas / estudiantes.length;
+        document.getElementById("promedio").innerHTML = (promedionotas);
+    </script>
+</body>
+</html>

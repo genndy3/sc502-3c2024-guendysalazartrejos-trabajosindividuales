@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación de edad</title>
+</head>
+<body>
+    <h1>Validación de edad</h1>
+    <div>
+        <input type="number" id="edad" placeholder="Digite su edad">
+        <button onclick="validar()">Validar</button>
+        <h2 id="validacion"></h2>
+    </div>
+    <script>
+        function validar(){
+        let edad = parseFloat(document.getElementById("edad").value);
+
+        if(edad >= 18){
+            document.getElementById("validacion").innerText = "Eres mayor de edad";
+        } else if(edad < 18){
+            document.getElementById("validacion").innerText = "Eres menor de edad";
+        }
+    }
+    </script>
+</body>
+</html>

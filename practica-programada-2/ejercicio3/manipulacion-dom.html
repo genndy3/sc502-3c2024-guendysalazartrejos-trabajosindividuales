@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+</head>
+<body>
+    <h1>Manipulación del DOM</h1>
+    <p id="parrafo1">La raza Siamés es conocida por su pelaje corto y suave, el Siamés tiene un cuerpo esbelto y orejas grandes. Su color es generalmente claro con marcas más oscuras en las patas, cara y cola.</p>
+    <button onclick="cambiarContenido()">Cambiar raza</button>
+    <script>
+        function cambiarContenido(){
+            document.getElementById("parrafo1").innerHTML = "La raza persa tiene pelaje largo y sedoso, el Persa tiene un rostro plano y un cuerpo robusto. Requiere un cuidado regular de su pelo.";
+        }
+    </script>
+</body>
+</html>
