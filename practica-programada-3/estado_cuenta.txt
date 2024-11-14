@@ -1,0 +1,51 @@
+Estado de Cuenta
+
+ID: 1
+Descripción: Compra en supermercado
+Monto: 5,000.00
+--------------------------
+ID: 2
+Descripción: Pago de luz
+Monto: 10,000.00
+--------------------------
+ID: 3
+Descripción: Compra en línea
+Monto: 15,000.00
+--------------------------
+ID: 4
+Descripción: Pago de Agua
+Monto: 20,000.00
+--------------------------
+ID: 5
+Descripción: Compra de ropa
+Monto: 18,500.00
+--------------------------
+ID: 6
+Descripción: Pago de cable/internet
+Monto: 40,000.00
+--------------------------
+ID: 7
+Descripción: Compra carnicería
+Monto: 5,000.00
+--------------------------
+ID: 8
+Descripción: Pago de teléfono
+Monto: 10,000.00
+--------------------------
+ID: 9
+Descripción: Uber
+Monto: 2,500.00
+--------------------------
+ID: 10
+Descripción: Sinpe movil
+Monto: 6,000.00
+--------------------------
+ID: 11
+Descripción: Ubereats
+Monto: 3,500.00
+--------------------------
+
+Total (sin interés): 135,500.00
+Total con interés (2.6%): 139,023.00
+Cashback (0.1%): 135.50
+Monto final a pagar: 138,887.50
